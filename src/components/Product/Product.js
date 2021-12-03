@@ -92,7 +92,7 @@ const Product = () => {
                     <Typography>Page: {page}</Typography>
                     <Pagination
 
-                        onClick={() => setPage(page)}
+                       
                         style={{ display: 'flex', justifyContent: 'center' }}
                         count={500}
                         page={page}
